@@ -9,6 +9,7 @@
 
 项目组织结构：  
 服务端：  
+![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture4.png)  
 
 
 项目部署：  
@@ -18,3 +19,7 @@
     
 项目数据集：  
 https://challenge2018.isic-archive.com/task3/
+
+
+项目运行效果：  
+![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture1.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture2.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture3.png)
