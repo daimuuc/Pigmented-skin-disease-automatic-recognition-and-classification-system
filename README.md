@@ -22,4 +22,7 @@ https://challenge2018.isic-archive.com/task3/
 
 
 项目运行效果：  
-![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture1.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture2.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture3.png)
+![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture1.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture2.png)![Image text](https://github.com/JunhaoCheng/-Pigmented-skin-disease-automatic-recognition-and-classification-system-/blob/master/Imgs/Picture3.png)  
+
+项目演示视屏：  
+width="720" height="405" src="https://player.vimeo.com/video/134128443?color=ffffff&title=0&byline=0&portrait=0&badge=0" allowfullscreen="">
