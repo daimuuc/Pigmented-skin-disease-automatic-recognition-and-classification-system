@@ -3,12 +3,12 @@
 ***
 ## 项目差异:  
 与微信版的差异主要体现在:  
-服务端:  
-&nbsp; 使用Resnet152、InceptionV3、EfficientNet作集成学习，  
-&nbsp; 并使用DGGAN、WGAN_GP合成数据  
-客户端:  
-&nbsp; 基于SSM和SpringBoot两个版本开发，拥有皮肤病预测、皮肤病资讯、  
-&nbsp; 病例图片查询三大功能
+&nbsp;服务端:  
+&nbsp;&nbsp;使用Resnet152、InceptionV3、EfficientNet作集成学习，  
+&nbsp;&nbsp;并使用DGGAN、WGAN_GP合成数据  
+&nbsp;客户端:  
+&nbsp;&nbsp;基于SSM和SpringBoot两个版本开发，拥有皮肤病预测、皮肤病资讯、  
+&nbsp;&nbsp;病例图片查询三大功能
 ***
 ## 项目部署：  
 1、修改server.py文件并运行  
