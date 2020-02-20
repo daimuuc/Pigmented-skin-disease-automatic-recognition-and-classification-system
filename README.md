@@ -19,4 +19,4 @@
 ![Image text](https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/blob/website/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/Picture1.png)![Image text](https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/blob/website/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/Picture2.png)![Image text](https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/blob/website/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/Picture3.png)  
 ***
 ## 项目演示视屏：  
-https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/blob/master/演示视屏.mp4
+https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/blob/website/%E6%BC%94%E7%A4%BA%E8%A7%86%E5%B1%8F.mov
