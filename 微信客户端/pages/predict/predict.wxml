@@ -1,5 +1,0 @@
-<!--pages/predict/predict.wxml-->
-<container>
-  <text class='title'>预测结果</text>
-  <text class='text'>{{result}}</text>
-</container>

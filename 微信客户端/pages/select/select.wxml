@@ -1,6 +1,0 @@
-<!--pages/select/select.wxml-->
-<view class="container">
-  <button  class='button' bindtap='select_album'> 本地图片 </button>
-  <button  class='button' bindtap='select_camera'> 拍摄图片 </button>
-</view>
-

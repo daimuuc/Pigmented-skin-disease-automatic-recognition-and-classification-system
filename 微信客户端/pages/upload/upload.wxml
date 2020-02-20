@@ -1,4 +1,0 @@
-<!--pages/upload/upload.wxml-->
-<view class="container">
-  <button  class='button' bindtap='upload'> 上传图片 </button>
-</view>
