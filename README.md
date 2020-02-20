@@ -2,7 +2,7 @@
 色素性皮肤病七分类系统（微信版）
 
 网站版项目地址：  
-。。。。。。。。。
+https://github.com/JunhaoCheng/Pigmented-skin-disease-automatic-recognition-and-classification-system/tree/website
     
 项目功能：  
 基于深度学习、集成学习、迁移学习、GAN等技术的色素性皮肤病自动识别七分类系统。  
