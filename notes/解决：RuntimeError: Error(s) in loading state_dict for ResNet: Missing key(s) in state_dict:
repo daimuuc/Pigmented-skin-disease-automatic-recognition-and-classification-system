@@ -1,0 +1,57 @@
+解决：RuntimeError: Error(s) in loading state_dict for ResNet: Missing key(s) in state_dict: 
+
+https://blog.csdn.net/weixin_43760844/article/details/113799556
+
+解决：RuntimeError: Error(s) in loading state_dict for ResNet: Missing key(s) in state_dict: “ca.fc1
+
+蠕动的爬虫 2021-02-13 11:00:40  1157  收藏 4
+分类专栏： Problems and Solutions 文章标签： 神经网络 pytorch 深度学习
+版权
+
+Problems and Solutions
+专栏收录该内容
+12 篇文章0 订阅
+订阅专栏
+1. 问题
+2. 分析
+3. 解决
+1. 问题
+在修改完Resnet网络结构（加入attention机制）后进行train,报错：
+
+
+2. 分析
+    原因是预训练模型里面的参数模型和自己修改的网络参数不对应。
+    先看加载预训练模型的代码
+
+def _resnet(arch, block, layers, pretrained, progress, **kwargs):
+  model = ResNet(block, layers, **kwargs)#自己定义的model
+  if pretrained:
+    state_dict = load_state_dict_from_url(model_urls[arch], progress=progress)#预训练的model
+    model.load_state_dict(state_dict)
+
+  return model
+1
+2
+3
+4
+5
+6
+7
+    其中调用model的load_state_dict方法用预训练的模型参数来初始化自己定义的新网络结构，这个方法就是PyTorch中通用的用一个模型的参数初始化另一个模型的层的操作。load_state_dict方法还有一个重要的参数是strict，该参数默认是True，表示预训练模型的层和自己定义的网络结构层严格对应相等（比如层名和维度）。
+    所以当我们修改了网络结构后，如果strict之为True的时候就会报错。
+
+3. 解决
+将strict的值设为False即可
+def _resnet(arch, block, layers, pretrained, progress, **kwargs):
+  model = ResNet(block, layers, **kwargs)#自己定义的model
+  if pretrained:
+    state_dict = load_state_dict_from_url(model_urls[arch], progress=progress)#预训练的model
+    model.load_state_dict(state_dict, strict=False)
+   
+    """如果是加载本地下载好的预训练模型，就用torch.load()，再把strict设为False
+    model.load_state_dict(torch.load("./resnet50-19c8e357.pth"),strict=False)
+    """
+  return model
+————————————————
+版权声明：本文为CSDN博主「蠕动的爬虫」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_43760844/article/details/113799556
